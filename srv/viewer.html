@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HLS Live Streaming</title>
+	<link href="/js/video-js.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+  <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="860"
+    height="600"
+    data-setup="{}">
+    <source src="/hls/stream1.m3u8" type="application/vnd.apple.mpegurl" />
+  </video>
+  </div>
+<div>
+  <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="860"
+    height="600"
+    data-setup="{}">
+    <source src="/hls/stream2.m3u8" type="application/vnd.apple.mpegurl" />
+  </video>
+  </div>
+    
+  <script src="/js/video.js"></script>
+</body>
+</html>
