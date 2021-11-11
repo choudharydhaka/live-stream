@@ -5,17 +5,17 @@ This is a weekend project with very basic functionality.
 I do have a simple requirement to add a surveillance camera at my home to get live feed over the internet. 
 You might think there are a lot of devices and services available in the market, then why? Answer is, I don't trust them.
 
-## Devices used to full the requirement
-I used raspberry pi 3 model B as a RTMP and HTTP server. RTMP accepts the live streaming feed from mobile camera over wifi and store last 30 seconds feed.
-Raspberry server provides this live feed back to me using hlv http server over http protocol.
+## Devices used to fullfill the requirement
+I used Nginx install on Raspberry pi 3 model B as a RTMP and HTTP server. RTMP accepts the live streaming feed from mobile camera over wifi through RTMP protocol and store for last 30 seconds feed.
+Raspberry server provides this live feed back to me using HLV HTTP server over HTTP protocol.
 
 Below is the architecture diagram -  
 
 ![](.attachments/live-stream.jpg)
 
 # Prerequisite
-- nginx [download][http://nginx-win.ecsds.eu/download/]
-- Andoid App [Astra Streaming Studio](https://play.google.com/store/apps/details?id=miv.astudio&hl=en_IN&gl=US)
+- nginx [download](http://nginx-win.ecsds.eu/download/)
+- Andoid App - Play Store App [Astra Streaming Studio](https://play.google.com/store/apps/details?id=miv.astudio&hl=en_IN&gl=US)
 
 # Getting Started
  
